@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.cover {
+    border: 1px solid #cc88cc;
+    min-height: 400px;
+    position: relative;
+}
+
+.card {
+    width: 80%;
+    height: 80%;
+    box-shadow: 3px 3px 5px #444;
+    position: absolute;
+    transition: all 0.5s linear;
+    left: 10%;
+    top: 15%;    
+}
+
+.go {
+    left: -2000px;
+}
